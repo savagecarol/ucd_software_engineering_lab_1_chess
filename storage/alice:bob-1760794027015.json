@@ -1,0 +1,10 @@
+{
+  "gameId": "alice:bob-1760794027015",
+  "whitePlayer": {"id":"alice","name":"Alice","win":0,"draw":0,"loss":0,"pending":0,"rating":1200},
+  "blackPlayer": {"id":"bob","name":"Bob","win":0,"draw":0,"loss":0,"pending":0,"rating":1200},
+  "currentTurn": "WHITE",
+  "isFinished": false,
+  "whiteInCheck": false,
+  "blackInCheck": false,
+  "moveHistory": []
+}
