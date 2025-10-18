@@ -1,3 +1,4 @@
 id,name,passwordHash,win,draw,loss,pending,rating,totalPoints,gamesPlayed,piecesCaptured,specialMoves
 alice,Alice,hash1,1,0,0,0,1200,0,1,0,0
 bob,Bob,hash2,0,0,1,0,1200,0,1,0,0
+92244607-26f3-4964-a15c-6c83610671b6,TestPlayer,ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f,0,0,0,0,100,0,0,0,0

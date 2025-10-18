@@ -1,0 +1,10 @@
+{
+  "gameId": "alice:bob-movetest-1760795369646",
+  "whitePlayer": {"id":"alice","name":"Alice","win":1,"draw":0,"loss":0,"pending":0,"rating":1200},
+  "blackPlayer": {"id":"bob","name":"Bob","win":0,"draw":0,"loss":1,"pending":0,"rating":1200},
+  "currentTurn": "BLACK",
+  "isFinished": false,
+  "whiteInCheck": false,
+  "blackInCheck": false,
+  "moveHistory": [{"fromFile":"e","fromRank":2,"toFile":"e","toRank":4,"playerId":"alice","playerName":"Alice"},{"fromFile":"e","fromRank":7,"toFile":"e","toRank":5,"playerId":"bob","playerName":"Bob"},{"fromFile":"g","fromRank":1,"toFile":"f","toRank":3,"playerId":"alice","playerName":"Alice"},{"fromFile":"b","fromRank":8,"toFile":"c","toRank":6,"playerId":"bob","playerName":"Bob"},{"fromFile":"f","fromRank":1,"toFile":"c","toRank":4,"playerId":"alice","playerName":"Alice"},{"fromFile":"g","fromRank":8,"toFile":"f","toRank":6,"playerId":"bob","playerName":"Bob"},{"fromFile":"e","fromRank":1,"toFile":"g","toRank":1,"playerId":"alice","playerName":"Alice"}]
+}
