@@ -1,0 +1,10 @@
+{
+  "gameId": "VeryLongPlayerName123:AnotherVeryLongPlayerName456-20251019183010",
+  "whitePlayer": {"id":"0224b535-7a86-4d95-9d92-546f05219923","name":"VeryLongPlayerName123","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "blackPlayer": {"id":"c2c49ba2-1be5-4b91-aa65-25afb14d7077","name":"AnotherVeryLongPlayerName456","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "currentTurn": "WHITE",
+  "isFinished": false,
+  "whiteInCheck": false,
+  "blackInCheck": false,
+  "moveHistory": []
+}

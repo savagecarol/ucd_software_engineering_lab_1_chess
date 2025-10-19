@@ -1,0 +1,10 @@
+{
+  "gameId": "WhitePlayer:BlackPlayer-20251019183010",
+  "whitePlayer": {"id":"862f56bd-17e0-41a0-9203-dff4d8525fb3","name":"WhitePlayer","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "blackPlayer": {"id":"6902faf3-3200-44f7-bd38-41e92c110cf4","name":"BlackPlayer","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "currentTurn": "BLACK",
+  "isFinished": false,
+  "whiteInCheck": false,
+  "blackInCheck": false,
+  "moveHistory": [{"fromFile":"e","fromRank":2,"toFile":"e","toRank":4,"playerId":"862f56bd-17e0-41a0-9203-dff4d8525fb3","playerName":"WhitePlayer"}]
+}

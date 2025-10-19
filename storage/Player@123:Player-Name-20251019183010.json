@@ -1,0 +1,10 @@
+{
+  "gameId": "Player@123:Player-Name-20251019183010",
+  "whitePlayer": {"id":"b6a566a5-e2bd-4f81-a1e0-1c36acc9f350","name":"Player@123","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "blackPlayer": {"id":"a5d821f5-f219-4c0f-934f-072c8fd26628","name":"Player-Name","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "currentTurn": "WHITE",
+  "isFinished": false,
+  "whiteInCheck": false,
+  "blackInCheck": false,
+  "moveHistory": []
+}
