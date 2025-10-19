@@ -8,7 +8,7 @@ A Java chess game implementation with a complete test suite.
 ```bash
 # Compile and run
 mvn clean compile
-mvn exec:java -Dexec.mainClass="MainGame"
+mvn exec:java -Dexec.mainClass="com.chess.MainGame"
 
 # Or create JAR and run
 mvn clean package
@@ -27,38 +27,38 @@ java -jar target/chess-game-1.0.0.jar
 ### Option 3: Manual compilation
 ```bash
 # Compile all source files
-javac -d out -cp src src/*.java src/dto/*.java src/enums/*.java src/service/*.java src/service/impl/*.java src/storage/*.java src/validator/*.java src/utility/*.java
+javac -d out -cp src src/*.java src/com.chess.dto/*.java src/com.chess.enums/*.java src/com.chess.service/*.java src/com.chess.service/impl/*.java src/com.chess.storage/*.java src/com.chess.validator/*.java src/com.chess.utility/*.java
 
 # Run the game
-java -cp out MainGame
+java -cp out com.chess.MainGame
 ```
 
 ## 📁 Project Structure
 
 ```
 src/
-├── dto/                    # Data Transfer Objects
+├── com.chess.dto/                    # Data Transfer Objects
 │   ├── Block.java         # Chess board square
 │   ├── ChessBoard.java    # Chess board logic
 │   ├── Game.java          # Game state management
 │   ├── Move.java          # Chess move representation
 │   └── Player.java        # Player data and statistics
-├── enums/                  # Enumerations
+├── com.chess.enums/                  # Enumerations
 │   ├── ColourEnum.java    # Colors (WHITE, BLACK, BLANK)
 │   └── PiecesEnum.java    # Chess pieces with values
-├── service/                # Business logic services
-│   ├── GameService.java   # Game service interface
-│   ├── PlayerService.java # Player service interface
+├── com.chess.service/                # Business logic services
+│   ├── GameService.java   # Game com.chess.service interface
+│   ├── PlayerService.java # Player com.chess.service interface
 │   ├── ScoringService.java # Scoring system
 │   └── impl/              # Service implementations
-├── storage/                # Data persistence
+├── com.chess.storage/                # Data persistence
 │   ├── GameStorage.java   # Game save/load
-│   └── PlayerStorage.java # Player data storage
-├── validator/              # Input validation
+│   └── PlayerStorage.java # Player data com.chess.storage
+├── com.chess.validator/              # Input validation
 │   └── PlayerValidator.java
-├── utility/                # Utility classes
+├── com.chess.utility/                # Utility classes
 │   └── ChessMainMenu.java # Main menu system
-└── MainGame.java          # Main entry point
+└── com.chess.MainGame.java          # Main entry point
 ```
 
 ## 🎮 Game Features
@@ -132,6 +132,6 @@ mvn clean package
 ## 📝 Notes
 
 - The game requires interactive input to function properly
-- Games are saved in the `storage/` directory
-- Player data is stored in `storage/players.csv`
+- Games are saved in the `com.chess.storage/` directory
+- Player data is stored in `com.chess.storage/players.csv`
 - The project is ready for development and testing
