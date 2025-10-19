@@ -93,8 +93,8 @@ public class GameStorage {
     
     public static List<String> getGamesForPlayers(String player1Name, String player2Name) {
         List<String> playerGames = new ArrayList<>();
-        Pattern pattern = Pattern.compile("^" + player1Name + "-" + player2Name + ":\\d+$|^" + player2Name + "-" + player1Name + ":\\d+$");
-        
+        Pattern pattern = Pattern.compile("^" + player1Name + ":" + player2Name + "-\\d+$|^" + player2Name + ":" + player1Name + ":\\d+$");
+        System.out.println(pattern);
         for (String gameId : getAllGameFiles()) {
             if (pattern.matcher(gameId).matches()) {
                 playerGames.add(gameId);
