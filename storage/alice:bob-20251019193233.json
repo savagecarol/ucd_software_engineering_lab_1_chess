@@ -3,7 +3,7 @@
   "whitePlayer": {"id":"1fd52caa-086a-46ff-801c-3294d8657a24","name":"alice","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
   "blackPlayer": {"id":"1fd52caa-086a-46ff-801c-3294d8657a25","name":"bob","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
   "currentTurn": "BLACK",
-  "isFinished": false,
+  "isFinished": true,
   "whiteInCheck": false,
   "blackInCheck": false,
   "moveHistory": [{"fromFile":"e","fromRank":2,"toFile":"e","toRank":4,"playerId":"1fd52caa-086a-46ff-801c-3294d8657a24","playerName":"alice"},{"fromFile":"d","fromRank":7,"toFile":"d","toRank":5,"playerId":"1fd52caa-086a-46ff-801c-3294d8657a25","playerName":"bob"},{"fromFile":"e","fromRank":4,"toFile":"d","toRank":5,"playerId":"1fd52caa-086a-46ff-801c-3294d8657a24","playerName":"alice"}]

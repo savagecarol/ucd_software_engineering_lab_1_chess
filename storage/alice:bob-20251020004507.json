@@ -1,0 +1,10 @@
+{
+  "gameId": "alice:bob-20251020004507",
+  "whitePlayer": {"id":"1fd52caa-086a-46ff-801c-3294d8657a24","name":"alice","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "blackPlayer": {"id":"1fd52caa-086a-46ff-801c-3294d8657a25","name":"bob","win":0,"draw":0,"loss":0,"pending":0,"rating":100},
+  "currentTurn": "WHITE",
+  "isFinished": true,
+  "whiteInCheck": false,
+  "blackInCheck": false,
+  "moveHistory": []
+}
